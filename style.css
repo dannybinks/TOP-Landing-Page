@@ -10,6 +10,7 @@ footer {
   color: #e5e7eb;
 }
 header {
+  padding-top: 15px;
   padding-right: 15%;
   padding-left: 15%;
 }
@@ -29,6 +30,49 @@ header .logo {
   font-size: 18px;
 }
 .section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1f2937;
-  border: 5px solid green;
+  padding-bottom: 7%;
+  padding-top: 7%;
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  width: 375px;
+  margin-right: auto;
+}
+.section1Text {
+  font-size: 48px;
+  color: #f9faf8;
+  padding-bottom: 0%;
+  margin: 0%;
+}
+.section1Subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+  flex-wrap: wrap;
+  width: 425px;
+  margin: 0%;
+}
+.section1Button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+}
+.section1Image {
+  align-self: center;
+  width: 500px;
+  height: 250px;
+  margin-left: 0;
+}
+
+
